@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# MAUI / Xamarin
+*.apk
+*.apks
+*.aab
+
+# Mac/iOS
+*.dSYM
+*.ipa
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
