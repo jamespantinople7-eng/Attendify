@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Attendify.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Attendify.csproj": {
+    "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Attendify.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify.csproj",
         "projectName": "Attendify",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Attendify.csproj",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\obj\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Attendify.EditProfile"
+             Title="Edit Profile"
+             BackgroundColor="#F1F5F9"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="HeaderBlue">#1F4E8C</Color>
+            <Color x:Key="PrimaryBlue">#1E40AF</Color>
+            <Color x:Key="TextDark">#1E293B</Color>
+            <Color x:Key="TextMuted">#64748B</Color>
+            <Color x:Key="CardBg">#FFFFFF</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="70,*,80">
+
+        <!-- Header -->
+        <BoxView Grid.Row="0" Color="{StaticResource HeaderBlue}" />
+
+        <Label Grid.Row="0"
+               Text="Edit Profile"
+               TextColor="White"
+               FontSize="20"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!-- Scrollable Content -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="16" Padding="16,20,16,24">
+
+                <!-- Profile Picture Card -->
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="16"
+                       Padding="20"
+                       HasShadow="False">
+                    <VerticalStackLayout HorizontalOptions="Center" Spacing="12">
+
+                        <!-- Circular Profile Image with Camera Icon -->
+                        <Grid HorizontalOptions="Center">
+                            <Border WidthRequest="130" 
+                                    HeightRequest="130"
+                                    StrokeThickness="0">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="65" />
+                                </Border.StrokeShape>
+                                <Image Source="profile_photo.png"
+                                       Aspect="AspectFill"
+                                       WidthRequest="130"
+                                       HeightRequest="130" />
+                            </Border>
+
+                            <!-- Camera Icon Overlay -->
+                            <Border Grid.Column="0"
+                                    WidthRequest="36"
+                                    HeightRequest="36"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    StrokeThickness="3"
+                                    Stroke="White"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="End"
+                                    Margin="0,0,5,5">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="18" />
+                                </Border.StrokeShape>
+                                <Image Source="ic_camera.png"
+                                       WidthRequest="18"
+                                       HeightRequest="18"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnChangePhotoTapped" />
+                                </Border.GestureRecognizers>
+                            </Border>
+                        </Grid>
+
+                        <Label Text="CHANGE PROFILE PICTURE"
+                               TextColor="{StaticResource TextMuted}"
+                               FontSize="11"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Full Name Field -->
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="16"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="FULL NAME"
+                               TextColor="{StaticResource TextMuted}"
+                               FontSize="11"
+                               FontAttributes="Bold" />
+                        <Grid ColumnDefinitions="24,*" ColumnSpacing="8">
+                            <Image Grid.Column="0" 
+                                   Source="ic_person.png" 
+                                   WidthRequest="18" 
+                                   HeightRequest="18" 
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Start" />
+                            <Entry Grid.Column="1" 
+                                   Text="Patrick Dale Ragas"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="15"
+                                   BackgroundColor="Transparent"
+                                   VerticalOptions="Center" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Student ID Field -->
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="16"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="STUDENT ID"
+                               TextColor="{StaticResource TextMuted}"
+                               FontSize="11"
+                               FontAttributes="Bold" />
+                        <Grid ColumnDefinitions="24,*" ColumnSpacing="8">
+                            <Image Grid.Column="0" 
+                                   Source="ic_id_card.png" 
+                                   WidthRequest="18" 
+                                   HeightRequest="18" 
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Start" />
+                            <Entry Grid.Column="1" 
+                                   Text="2021-00452-AR"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="15"
+                                   BackgroundColor="Transparent"
+                                   VerticalOptions="Center" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Email Address Field -->
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="16"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="EMAIL ADDRESS"
+                               TextColor="{StaticResource TextMuted}"
+                               FontSize="11"
+                               FontAttributes="Bold" />
+                        <Grid ColumnDefinitions="24,*" ColumnSpacing="8">
+                            <Image Grid.Column="0" 
+                                   Source="ic_email.png" 
+                                   WidthRequest="18" 
+                                   HeightRequest="18" 
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Start" />
+                            <Entry Grid.Column="1" 
+                                   Text="dalep@ctu.edu.ph"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="15"
+                                   Keyboard="Email"
+                                   BackgroundColor="Transparent"
+                                   VerticalOptions="Center" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Course / Program Field -->
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="16"
+                       HasShadow="False">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="COURSE / PROGRAM"
+                               TextColor="{StaticResource TextMuted}"
+                               FontSize="11"
+                               FontAttributes="Bold" />
+                        <Grid ColumnDefinitions="24,*" ColumnSpacing="8">
+                            <Image Grid.Column="0" 
+                                   Source="ic_course.png" 
+                                   WidthRequest="18" 
+                                   HeightRequest="18" 
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Start" />
+                            <Entry Grid.Column="1" 
+                                   Text="BS in Information Technology"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="15"
+                                   BackgroundColor="Transparent"
+                                   VerticalOptions="Center" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Save Changes Button -->
+                <Button Text="Save Changes"
+                        BackgroundColor="{StaticResource HeaderBlue}"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        Margin="0,8,0,16"
+                        Clicked="OnSaveChangesTapped" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation Bar -->
+        <!-- Bottom Navigation -->
+        <Border Grid.Row="2"
+        BackgroundColor="#F2FFFFFF"
+        StrokeThickness="0"
+        Padding="20,8,20,16"
+        HeightRequest="95"
+        VerticalOptions="End">
+
+            <Grid ColumnDefinitions="*,*,70,*,*"
+          HeightRequest="95"
+          VerticalOptions="Center">
+
+                <!-- Home -->
+                <VerticalStackLayout Grid.Column="0"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnHomeTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_home.png"
+                   WidthRequest="16"
+                   HeightRequest="18" />
+                    <Label Text="Home"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Events -->
+                <VerticalStackLayout Grid.Column="1"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <Image Source="ic_events.png"
+                   WidthRequest="18"
+                   HeightRequest="20" />
+                    <Label Text="Events"
+                   TextColor="#1F4E8C"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Scan -->
+                <Grid Grid.Column="2"
+              HorizontalOptions="Center"
+              VerticalOptions="Start"
+              ZIndex="10">
+
+                    <Border BackgroundColor="#1F4E8C"
+                    StrokeThickness="4"
+                    Stroke="White"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    TranslationY="12">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30" />
+                        </Border.StrokeShape>
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnScanTapped" />
+                        </Border.GestureRecognizers>
+
+                        <Image Source="ic_scan.png"
+                       WidthRequest="28"
+                       HeightRequest="28"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <!-- My Events -->
+                <VerticalStackLayout Grid.Column="3"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnMyEventsTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_myevents.png"
+                   WidthRequest="18"
+                   HeightRequest="18" />
+                    <Label Text="My Events"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Profile -->
+                <VerticalStackLayout Grid.Column="4"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_profile.png"
+                   WidthRequest="16"
+                   HeightRequest="16" />
+                    <Label Text="Profile"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</ContentPage>

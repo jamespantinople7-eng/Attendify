@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Attendify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\eventdetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\eventdetails.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Downloads\\EventDetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\attendify\\attendify\\events.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B320DD9F-C7EB-4000-A8B9-F5C09FEB3B54}|Attendify\\Attendify.csproj|solutionrelative:attendify\\events.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Login.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Login.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Login.xaml",
+              "RelativeToolTip": "Attendify\\Login.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T11:31:01.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Attendify\\Dashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:11:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Homepage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Homepage.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Homepage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Homepage.xaml.cs",
+              "RelativeToolTip": "Attendify\\Homepage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:06:10.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Attendify\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\AppShell.xaml",
+              "RelativeToolTip": "Attendify\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T10:48:32.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Homepage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Homepage.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Homepage.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Homepage.xaml",
+              "RelativeToolTip": "Attendify\\Homepage.xaml",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAswI4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T14:00:25.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\AppShell.xaml.cs",
+              "RelativeToolTip": "Attendify\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:50:13.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\App.xaml.cs",
+              "RelativeToolTip": "Attendify\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T10:48:30.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Events.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Events.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Events.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Events.xaml",
+              "RelativeToolTip": "Attendify\\Events.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T10:48:34.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Dashboard.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeToolTip": "Attendify\\Dashboard.xaml",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAAAIQBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T10:48:07.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\EventDetails.xaml",
+              "RelativeDocumentMoniker": "Attendify\\EventDetails.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\EventDetails.xaml",
+              "RelativeToolTip": "Attendify\\EventDetails.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T12:50:18.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\App.xaml",
+              "RelativeDocumentMoniker": "Attendify\\App.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\App.xaml",
+              "RelativeToolTip": "Attendify\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T10:48:29.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Login.xaml.cs",
+              "RelativeToolTip": "Attendify\\Login.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:56:53.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventDetails.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\EventDetails.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\EventDetails.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\EventDetails.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\EventDetails.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:11:30.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Attendify\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\MauiProgram.cs",
+              "RelativeToolTip": "Attendify\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:45:42.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Signup.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Signup.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Signup.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Signup.xaml",
+              "RelativeToolTip": "Attendify\\Signup.xaml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAADgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T13:39:45.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Signup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Signup.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Signup.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Signup.xaml.cs",
+              "RelativeToolTip": "Attendify\\Signup.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:46:54.639Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

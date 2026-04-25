@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Attendify.SplashScreen"
+             NavigationPage.HasNavigationBar="False"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0.56,0" EndPoint="0.56,1">
+            <GradientStop Color="#60A3FC" Offset="0.0" />
+            <GradientStop Color="#4079C4" Offset="0.55" />
+            <GradientStop Color="#1F4E8C" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid RowDefinitions="*,Auto,Auto,Auto,Auto">
+
+        <BoxView Grid.Row="0" Color="Transparent" />
+
+        <Image Grid.Row="1"
+               Source="app_logo.png"
+               HeightRequest="281"
+               WidthRequest="317"
+               Aspect="AspectFit"
+               HorizontalOptions="Center"
+               Margin="0,0,0,16" />
+
+        <Label Grid.Row="2"
+               Text="ATTENDIFY"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               TextColor="White"
+               FontSize="32"
+               FontFamily="Montserrat-ExtraBold"
+               FontAttributes="Bold"
+               CharacterSpacing="1.6"
+               Margin="0,0,0,8">
+            <Label.Shadow>
+                <Shadow Brush="Black"
+                        Offset="0,4"
+                        Radius="4"
+                        Opacity="0.25" />
+            </Label.Shadow>
+        </Label>
+
+        <Label Grid.Row="3"
+               Text="Events Registration &amp; Attendance System"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               TextColor="White"
+               FontSize="15"
+               FontFamily="Montserrat-Medium"
+               CharacterSpacing="0.75"
+               Margin="24,24,24,0">
+            <Label.Shadow>
+                <Shadow Brush="Black"
+                        Offset="0,4"
+                        Radius="4"
+                        Opacity="0.25" />
+            </Label.Shadow>
+        </Label>
+
+        <Image Grid.Row="4"
+               Source="bg_building.png"
+               Aspect="AspectFill"
+               HorizontalOptions="Fill"
+               VerticalOptions="End"
+               Margin="-24,24,-24,0" />
+
+    </Grid>
+
+</ContentPage>

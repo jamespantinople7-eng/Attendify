@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I3fcq6V0T+Y=",
+  "dgSpecHash": "tWRE+JImtHk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\source\\repos\\Attendify\\Attendify\\Attendify.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.8\\microsoft.extensions.configuration.9.0.8.nupkg.sha512",

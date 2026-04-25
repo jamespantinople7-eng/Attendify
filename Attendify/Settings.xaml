@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Attendify.Settings"
+             Title="Settings"
+             BackgroundColor="#F1F5F9"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="HeaderBlue">#1F4E8C</Color>
+            <Color x:Key="PrimaryBlue">#1E40AF</Color>
+            <Color x:Key="TextDark">#1E293B</Color>
+            <Color x:Key="TextMuted">#64748B</Color>
+            <Color x:Key="CardBg">#FFFFFF</Color>
+            <Color x:Key="DangerRed">#DC2626</Color>
+            <Color x:Key="ToggleOn">#1E40AF</Color>
+            <Color x:Key="ToggleOff">#CBD5E1</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*,80">
+
+        <!-- Header -->
+        <BoxView Grid.Row="0" Color="{StaticResource HeaderBlue}" HeightRequest="180" />
+
+        <!-- Header Content -->
+        <Grid Grid.Row="0" RowDefinitions="44,Auto" Padding="0">
+
+            <!-- Top Bar -->
+            <Grid Grid.Row="0" ColumnDefinitions="48,*,48" Padding="12,0,12,0">
+                <Image Grid.Column="0" Source="ic_back.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnBackTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Label Grid.Column="1"
+                       Text="Settings"
+                       TextColor="White"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Grid>
+
+            <!-- User Profile Section -->
+            <Grid Grid.Row="1" ColumnDefinitions="64,*" Padding="20,8,20,20" VerticalOptions="End">
+                <!-- Profile Picture -->
+                <Border Grid.Column="0"
+                        WidthRequest="60"
+                        HeightRequest="60"
+                        StrokeThickness="3"
+                        Stroke="White">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="30" />
+                    </Border.StrokeShape>
+                    <Image Source="profile_photo.png"
+                           Aspect="AspectFill"
+                           WidthRequest="60"
+                           HeightRequest="60" />
+                </Border>
+
+                <!-- User Info -->
+                <VerticalStackLayout Grid.Column="1" Spacing="2" VerticalOptions="Center" Margin="12,0,0,0">
+                    <Label Text="Patrick Dale Ragas"
+                           TextColor="White"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="dalep@ctu.edu.ph"
+                           TextColor="#BFDBFE"
+                           FontSize="13" />
+                </VerticalStackLayout>
+            </Grid>
+        </Grid>
+
+        <!-- Scrollable Content -->
+        <ScrollView Grid.Row="1" Margin="0,-20,0,0">
+            <VerticalStackLayout Spacing="16" Padding="16,24,16,32">
+
+                <!-- ACCOUNT SETTINGS Section -->
+                <Label Text="ACCOUNT SETTINGS"
+                       TextColor="{StaticResource TextMuted}"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       Margin="4,0,0,8" />
+
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="False">
+                    <VerticalStackLayout>
+
+                        <!-- Profile Information -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_person.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Profile Information" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnProfileInfoTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Change Password -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_lock.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Change Password" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnChangePasswordTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Linked Accounts -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_link.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Linked Accounts" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLinkedAccountsTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- NOTIFICATIONS Section -->
+                <Label Text="NOTIFICATIONS"
+                       TextColor="{StaticResource TextMuted}"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       Margin="4,8,0,8" />
+
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="False">
+                    <VerticalStackLayout>
+
+                        <!-- Push Notifications -->
+                        <Grid ColumnDefinitions="44,*,48" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_notification.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Push Notifications" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Switch Grid.Column="2" IsToggled="True" HorizontalOptions="End" VerticalOptions="Center">
+                                <Switch.OnColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.OnColor>
+                                <Switch.ThumbColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.ThumbColor>
+                            </Switch>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Email Alerts -->
+                        <Grid ColumnDefinitions="44,*,48" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_email.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Email Alerts" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Switch Grid.Column="2" IsToggled="False" HorizontalOptions="End" VerticalOptions="Center">
+                                <Switch.OnColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.OnColor>
+                                <Switch.ThumbColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.ThumbColor>
+                            </Switch>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Event Reminders -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_calendar.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Event Reminders" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnEventRemindersTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- PREFERENCES Section -->
+                <Label Text="PREFERENCES"
+                       TextColor="{StaticResource TextMuted}"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       Margin="4,8,0,8" />
+
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="False">
+                    <VerticalStackLayout>
+
+                        <!-- Dark Mode -->
+                        <Grid ColumnDefinitions="44,*,48" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_moon.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Dark Mode" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Switch Grid.Column="2" IsToggled="False" HorizontalOptions="End" VerticalOptions="Center">
+                                <Switch.OnColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.OnColor>
+                                <Switch.ThumbColor>
+                                    <Color>#1E40AF</Color>
+                                </Switch.ThumbColor>
+                            </Switch>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Language -->
+                        <Grid ColumnDefinitions="44,*,Auto,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_globe.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Language" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Label Grid.Column="2" Text="English" TextColor="{StaticResource TextMuted}" FontSize="14" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Image Grid.Column="3" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLanguageTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- SUPPORT &amp; ABOUT Section (FIXED: Changed & to &amp;) -->
+                <Label Text="SUPPORT &amp; ABOUT"
+                       TextColor="{StaticResource TextMuted}"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       Margin="4,8,0,8" />
+
+                <Frame BackgroundColor="{StaticResource CardBg}"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="False">
+                    <VerticalStackLayout>
+
+                        <!-- Help Center -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_help.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Help Center" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnHelpCenterTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Privacy Policy -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_shield.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Privacy Policy" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnPrivacyPolicyTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- Terms of Service -->
+                        <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_document.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="Terms of Service" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnTermsOfServiceTapped" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#F1F5F9" Margin="60,0,0,0" />
+
+                        <!-- App Version -->
+                        <Grid ColumnDefinitions="44,*,Auto" Padding="16,14,16,14">
+                            <Image Grid.Column="0" Source="ic_info.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                            <Label Grid.Column="1" Text="App Version" TextColor="{StaticResource TextDark}" FontSize="15" VerticalOptions="Center" />
+                            <Label Grid.Column="2" Text="2.4.12 (BETA)" TextColor="{StaticResource TextMuted}" FontSize="14" VerticalOptions="Center" HorizontalOptions="End" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- DANGER ZONE Section -->
+                <Label Text="DANGER ZONE"
+                       TextColor="{StaticResource DangerRed}"
+                       FontSize="12"
+                       FontAttributes="Bold"
+                       Margin="4,8,0,8" />
+
+                <!-- FIXED: Removed duplicate BackgroundColor -->
+                <Frame CornerRadius="12"
+                       Padding="0"
+                       HasShadow="False"
+                       BorderColor="#FEE2E2"
+                       BackgroundColor="#FEF2F2">
+                    <Grid ColumnDefinitions="44,*,24" Padding="16,14,16,14">
+                        <Image Grid.Column="0" Source="ic_delete.png" WidthRequest="20" HeightRequest="20" VerticalOptions="Center" HorizontalOptions="Start" />
+                        <Label Grid.Column="1" Text="Delete Account" TextColor="{StaticResource DangerRed}" FontSize="15" VerticalOptions="Center" />
+                        <Image Grid.Column="2" Source="ic_chevron_right.png" WidthRequest="16" HeightRequest="16" VerticalOptions="Center" HorizontalOptions="End" />
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnDeleteAccountTapped" />
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                </Frame>
+
+                <Label Text="Deleting your account is permanent and cannot be undone. All registration data will be removed."
+                       TextColor="{StaticResource TextMuted}"
+                       FontSize="12"
+                       Margin="8,4,8,16"
+                       LineBreakMode="WordWrap" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation -->
+        <Border Grid.Row="2"
+        BackgroundColor="#F2FFFFFF"
+        StrokeThickness="0"
+        Padding="20,8,20,16"
+        HeightRequest="95"
+        VerticalOptions="End">
+
+            <Grid ColumnDefinitions="*,*,70,*,*"
+          HeightRequest="95"
+          VerticalOptions="Center">
+
+                <!-- Home -->
+                <VerticalStackLayout Grid.Column="0"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnHomeTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_home.png"
+                   WidthRequest="16"
+                   HeightRequest="18" />
+                    <Label Text="Home"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Events -->
+                <VerticalStackLayout Grid.Column="1"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <Image Source="ic_events.png"
+                   WidthRequest="18"
+                   HeightRequest="20" />
+                    <Label Text="Events"
+                   TextColor="#1F4E8C"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Scan -->
+                <Grid Grid.Column="2"
+              HorizontalOptions="Center"
+              VerticalOptions="Start"
+              ZIndex="10">
+
+                    <Border BackgroundColor="#1F4E8C"
+                    StrokeThickness="4"
+                    Stroke="White"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    TranslationY="12">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30" />
+                        </Border.StrokeShape>
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnScanTapped" />
+                        </Border.GestureRecognizers>
+
+                        <Image Source="ic_scan.png"
+                       WidthRequest="28"
+                       HeightRequest="28"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <!-- My Events -->
+                <VerticalStackLayout Grid.Column="3"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnMyEventsTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_myevents.png"
+                   WidthRequest="18"
+                   HeightRequest="18" />
+                    <Label Text="My Events"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Profile -->
+                <VerticalStackLayout Grid.Column="4"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_profile.png"
+                   WidthRequest="16"
+                   HeightRequest="16" />
+                    <Label Text="Profile"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Attendify.Index"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#EFF6FF"
+    NavigationPage.HasNavigationBar="False">
+
+    <Grid RowDefinitions="52,Auto,Auto,Auto,Auto,Auto,Auto,*"
+          Padding="0">
+
+        <!-- Status Bar -->
+        <Grid Grid.Row="0"
+              Padding="24,10"
+              ColumnDefinitions="*,Auto"
+              HeightRequest="52">
+
+            <Label Text="9:30"
+                   TextColor="#4A4459"
+                   FontFamily="Roboto"
+                   FontSize="14"
+                   FontAttributes="Bold"
+                   VerticalOptions="End" />
+
+            <HorizontalStackLayout Grid.Column="1"
+                                   Spacing="6"
+                                   VerticalOptions="End">
+                <Label Text="◒"
+                       TextColor="#4A4459"
+                       FontSize="14" />
+                <Label Text="◢"
+                       TextColor="#4A4459"
+                       FontSize="14" />
+                <Label Text="▣"
+                       TextColor="#4A4459"
+                       FontSize="14" />
+            </HorizontalStackLayout>
+        </Grid>
+
+        <!-- Logo -->
+        <Image Grid.Row="1"
+               Source="app_logo.png"
+               WidthRequest="100"
+               HeightRequest="89"
+               HorizontalOptions="Center"
+               Aspect="AspectFit"
+               Margin="0,18,0,0" />
+
+        <!-- Title -->
+        <Label Grid.Row="2"
+               Text="Welcome Back!"
+               TextColor="#1F4E8C"
+               FontFamily="Roboto"
+               FontSize="36"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               Margin="0,18,0,0" />
+
+        <!-- Subtitle -->
+        <Label Grid.Row="3"
+               Text="Smart Event Registration for&#10;CTU - Argao Campus"
+               TextColor="#1F4E8C"
+               FontFamily="Roboto"
+               FontSize="26"
+               LineHeight="1.35"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               WidthRequest="394"
+               Margin="0,18,0,0" />
+
+        <!-- Illustration -->
+        <Image Grid.Row="4"
+               Source="welcome_illustration.png"
+               WidthRequest="403"
+               HeightRequest="269"
+               Aspect="AspectFill"
+               HorizontalOptions="Center"
+               Margin="0,40,0,0" />
+
+        <!-- Description -->
+        <Label Grid.Row="5"
+               Text="Register for campus events and track your&#10;attendance easily. Stay updated with activities at&#10;CTU Argao Campus."
+               TextColor="#1F4E8C"
+               FontFamily="Roboto"
+               FontSize="14"
+               LineHeight="1.5"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               WidthRequest="325"
+               Margin="0,24,0,0" />
+
+        <!-- Buttons -->
+        <Grid Grid.Row="6"
+              ColumnDefinitions="205,14,118"
+              HorizontalOptions="Center"
+              Margin="0,28,0,0">
+
+            <Button Grid.Column="0"
+                    Text="Get Started"
+                    BackgroundColor="#1F4E8C"
+                    TextColor="White"
+                    FontFamily="Roboto"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    HeightRequest="42"
+                    CornerRadius="12"
+                    Padding="0" />
+
+            <Button Grid.Column="2"
+                    Text="Log in"
+                    BackgroundColor="White"
+                    TextColor="#1F4E8C"
+                    FontFamily="Roboto"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    HeightRequest="42"
+                    CornerRadius="12"
+                    Padding="0" />
+        </Grid>
+
+        <!-- Sign Up -->
+        <Label Grid.Row="7"
+               TextColor="#1F4E8C"
+               FontFamily="Roboto"
+               FontSize="14"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               Margin="0,38,0,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Don’t have an account? " />
+                    <Span Text="Sign up here"
+                          FontAttributes="Bold"
+                          TextDecorations="Underline" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+    </Grid>
+</ContentPage>

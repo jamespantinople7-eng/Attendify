@@ -1,3 +1,5 @@
+Montserrat-ExtraBold.ttf
+Montserrat-Medium.ttf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 app_logo.scale-100.png
@@ -61,6 +63,7 @@ event_banner.scale-100.png
 event_tech.scale-100.jpg
 event_ux.scale-100.jpg
 ic_attendance.scale-100.png
+ic_back.scale-100.png
 ic_bell.scale-100.png
 ic_calendar_navy.scale-100.png
 ic_course.scale-100.png
@@ -77,6 +80,7 @@ ic_profile.scale-100.png
 ic_qr.scale-100.png
 ic_scan.scale-100.png
 ic_search.scale-100.png
+ic_settings.scale-100.png
 ic_three.scale-100.png
 image.scale-100.png
 location_icon.scale-100.png

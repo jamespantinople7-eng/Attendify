@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Attendify.MyEvents"
+             Title="My Events"
+             BackgroundColor="#F1F5F9"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryBlue">#1E40AF</Color>
+            <Color x:Key="TextDark">#1E293B</Color>
+            <Color x:Key="TextMuted">#64748B</Color>
+            <Color x:Key="CardBg">#FFFFFF</Color>
+            <Color x:Key="TabActive">#1E40AF</Color>
+            <Color x:Key="TabInactive">#CBD5E1</Color>
+            <Color x:Key="RegisteredBg">#DBEAFE</Color>
+            <Color x:Key="RegisteredText">#1E40AF</Color>
+            <Color x:Key="AttendedBg">#DCFCE7</Color>
+            <Color x:Key="AttendedText">#16A34A</Color>
+            <Color x:Key="MissedBg">#FEE2E2</Color>
+            <Color x:Key="MissedText">#DC2626</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*,95">
+
+        <!-- Header -->
+        <VerticalStackLayout Grid.Row="0" BackgroundColor="White" Padding="16,20,16,16" Spacing="16">
+
+            <!-- Title and Notification -->
+            <Grid ColumnDefinitions="*,40">
+                <Label Text="My Events" 
+                       FontSize="22" 
+                       FontAttributes="Bold" 
+                       TextColor="{StaticResource TextDark}"
+                       VerticalOptions="Center" />
+                <Image Grid.Column="1" 
+                       Source="ic_notification.png" 
+                       WidthRequest="24" 
+                       HeightRequest="24"
+                       HorizontalOptions="End"
+                       VerticalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnNotificationTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+
+            <!-- Tabs -->
+            <Grid ColumnDefinitions="*,*,*" BackgroundColor="#F8FAFC" ColumnSpacing="2">
+                <Border Grid.Column="0" 
+                        BackgroundColor="{StaticResource CardBg}"
+                        StrokeShape="RoundRectangle 8"
+                        Padding="16,12"
+                        x:Name="UpcomingTab">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnUpcomingTabTapped" />
+                    </Border.GestureRecognizers>
+                    <Label Text="Upcoming" 
+                           TextColor="{StaticResource TabActive}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+                </Border>
+
+                <Border Grid.Column="1" 
+                        BackgroundColor="Transparent"
+                        StrokeShape="RoundRectangle 8"
+                        Padding="16,12"
+                        x:Name="AttendedTab">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAttendedTabTapped" />
+                    </Border.GestureRecognizers>
+                    <Label Text="Attended" 
+                           TextColor="{StaticResource TabInactive}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+                </Border>
+
+                <Border Grid.Column="2" 
+                        BackgroundColor="Transparent"
+                        StrokeShape="RoundRectangle 8"
+                        Padding="16,12"
+                        x:Name="MissedTab">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnMissedTabTapped" />
+                    </Border.GestureRecognizers>
+                    <Label Text="Missed" 
+                           TextColor="{StaticResource TabInactive}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+                </Border>
+            </Grid>
+        </VerticalStackLayout>
+
+        <!-- Content Area with Single ScrollView -->
+        <ScrollView Grid.Row="1" Padding="16,16,16,16">
+            <Grid>
+
+                <!-- Upcoming Events Content -->
+                <VerticalStackLayout Spacing="16" x:Name="UpcomingContent">
+
+                    <!-- Event 1: Global AI Summit 2024 -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_ai_summit.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="End" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource RegisteredBg}"
+                                        Padding="12,6"
+                                        Margin="0,12,12,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="REGISTERED"
+                                           TextColor="{StaticResource RegisteredText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="Global AI Summit 2024"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Oct 24, 2024 • 10:00 AM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="View QR Ticket"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnViewQRTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- Event 2: Data Science Workshop -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_data_science.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="End" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource RegisteredBg}"
+                                        Padding="12,6"
+                                        Margin="0,12,12,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="REGISTERED"
+                                           TextColor="{StaticResource RegisteredText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="Data Science Workshop"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Nov 12, 2024 • 02:00 PM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="View QR Ticket"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnViewQRTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- Event 3: Career Fair Engineering -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid ColumnDefinitions="80,*" ColumnSpacing="12">
+                                <Border Grid.Column="0"
+                                        WidthRequest="80" 
+                                        HeightRequest="80"
+                                        BackgroundColor="#FEF3C7"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_career_fair.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="80"
+                                           HeightRequest="80" />
+                                </Border>
+
+                                <VerticalStackLayout Grid.Column="1" Spacing="4" VerticalOptions="Center">
+                                    <Label Text="COMING SOON"
+                                           TextColor="{StaticResource TextMuted}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                    <Label Text="Career Fair: Engineering"
+                                           TextColor="{StaticResource TextDark}"
+                                           FontSize="16"
+                                           FontAttributes="Bold" />
+                                    <Label Text="Dec 05, 2024"
+                                           TextColor="{StaticResource TextMuted}"
+                                           FontSize="13" />
+                                    <Label Text="Details ›"
+                                           TextColor="{StaticResource PrimaryBlue}"
+                                           FontSize="13"
+                                           FontAttributes="Bold" />
+                                </VerticalStackLayout>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+                <!-- Attended Events Content -->
+                <VerticalStackLayout Spacing="16" x:Name="AttendedContent" IsVisible="False">
+
+                    <!-- Event 1: Web Development Workshop -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_web_dev.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="End" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource AttendedBg}"
+                                        Padding="12,6"
+                                        Margin="0,12,12,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="ATTENDED"
+                                           TextColor="{StaticResource AttendedText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="Web Development Workshop 2024"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Oct 15, 2024 • 09:00 AM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="View Certificate"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnViewCertificateTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- Event 2: University Career Fair -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_career_fair_2.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="End" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource AttendedBg}"
+                                        Padding="12,6"
+                                        Margin="0,12,12,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="ATTENDED"
+                                           TextColor="{StaticResource AttendedText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="University Career Fair 2024"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Oct 10, 2024 • 10:00 AM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="Download Receipt"
+                                    BackgroundColor="#F1F5F9"
+                                    TextColor="{StaticResource PrimaryBlue}"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnDownloadReceiptTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+                <!-- Missed Events Content -->
+                <VerticalStackLayout Spacing="16" x:Name="MissedContent" IsVisible="False">
+
+                    <!-- Event 1: AI Innovation Summit -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_ai_innovation.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="Start" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource MissedBg}"
+                                        Padding="12,6"
+                                        Margin="12,12,0,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="MISSED"
+                                           TextColor="{StaticResource MissedText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="AI Innovation Summit"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Oct 15, 2023 • 10:00 AM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_location.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Grand Convention Center, NY"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="View Event Info"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnViewEventInfoTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- Event 2: Mobile App Development Contest -->
+                    <Frame BackgroundColor="{StaticResource CardBg}"
+                           CornerRadius="12"
+                           Padding="0"
+                           HasShadow="False">
+                        <VerticalStackLayout Spacing="12" Padding="12">
+
+                            <Grid>
+                                <Border WidthRequest="343" 
+                                        HeightRequest="180"
+                                        StrokeShape="RoundRectangle 8">
+                                    <Image Source="event_mobile_dev.png"
+                                           Aspect="AspectFill"
+                                           WidthRequest="343"
+                                           HeightRequest="180" />
+                                </Border>
+                                <Border HorizontalOptions="Start" 
+                                        VerticalOptions="Start"
+                                        BackgroundColor="{StaticResource MissedBg}"
+                                        Padding="12,6"
+                                        Margin="12,12,0,0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="20" />
+                                    </Border.StrokeShape>
+                                    <Label Text="MISSED"
+                                           TextColor="{StaticResource MissedText}"
+                                           FontSize="11"
+                                           FontAttributes="Bold" />
+                                </Border>
+                            </Grid>
+
+                            <Label Text="Mobile App Development Contest"
+                                   TextColor="{StaticResource TextDark}"
+                                   FontSize="16"
+                                   FontAttributes="Bold" />
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_calendar_small.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Nov 02, 2023 • 02:00 PM"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Grid ColumnDefinitions="16,*" ColumnSpacing="6">
+                                <Image Grid.Column="0" 
+                                       Source="ic_location.png" 
+                                       WidthRequest="14" 
+                                       HeightRequest="14" 
+                                       VerticalOptions="Center" />
+                                <Label Grid.Column="1" 
+                                       Text="Tech Hub Auditorium, SF"
+                                       TextColor="{StaticResource TextMuted}"
+                                       FontSize="13"
+                                       VerticalOptions="Center" />
+                            </Grid>
+
+                            <Button Text="View Event Info"
+                                    BackgroundColor="{StaticResource PrimaryBlue}"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    HeightRequest="44"
+                                    FontAttributes="Bold"
+                                    Clicked="OnViewEventInfoTapped" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+        </ScrollView>
+
+        <!-- Bottom Navigation -->
+        <Border Grid.Row="2"
+        BackgroundColor="#F2FFFFFF"
+        StrokeThickness="0"
+        Padding="20,8,20,16"
+        HeightRequest="95"
+        VerticalOptions="End">
+
+            <Grid ColumnDefinitions="*,*,70,*,*"
+          HeightRequest="95"
+          VerticalOptions="Center">
+
+                <!-- Home -->
+                <VerticalStackLayout Grid.Column="0"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnHomeTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_home.png"
+                   WidthRequest="16"
+                   HeightRequest="18" />
+                    <Label Text="Home"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Events -->
+                <VerticalStackLayout Grid.Column="1"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <Image Source="ic_events.png"
+                   WidthRequest="18"
+                   HeightRequest="20" />
+                    <Label Text="Events"
+                   TextColor="#1F4E8C"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Scan -->
+                <Grid Grid.Column="2"
+              HorizontalOptions="Center"
+              VerticalOptions="Start"
+              ZIndex="10">
+
+                    <Border BackgroundColor="#1F4E8C"
+                    StrokeThickness="4"
+                    Stroke="White"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    TranslationY="12">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30" />
+                        </Border.StrokeShape>
+
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnScanTapped" />
+                        </Border.GestureRecognizers>
+
+                        <Image Source="ic_scan.png"
+                       WidthRequest="28"
+                       HeightRequest="28"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <!-- My Events -->
+                <VerticalStackLayout Grid.Column="3"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnMyEventsTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_myevents.png"
+                   WidthRequest="18"
+                   HeightRequest="18" />
+                    <Label Text="My Events"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+                <!-- Profile -->
+                <VerticalStackLayout Grid.Column="4"
+                             Spacing="2"
+                             HorizontalOptions="Center"
+                             VerticalOptions="End"
+                             Margin="0,18,0,0">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileTapped" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image Source="ic_profile.png"
+                   WidthRequest="16"
+                   HeightRequest="16" />
+                    <Label Text="Profile"
+                   TextColor="#94A3B8"
+                   FontSize="10"
+                   FontAttributes="Bold" />
+                </VerticalStackLayout>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</ContentPage>

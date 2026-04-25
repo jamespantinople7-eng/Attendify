@@ -1,0 +1,569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\index.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\index.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\splashscreen.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\splashscreen.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\splashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\splashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\resources\\fonts\\montserrat-medium.ttf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\resources\\fonts\\montserrat-medium.ttf||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\resources\\fonts\\montserrat-extrabold.ttf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\resources\\fonts\\montserrat-extrabold.ttf||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\editprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\editprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\editprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\editprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\attendify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\attendify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\myevents.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\myevents.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\myevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\myevents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\events.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\events.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\eventdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\eventdetails.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\events.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\events.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Events.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Events.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Dashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Attendify.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Login.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Login.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Attendify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|c:\\users\\user\\source\\repos\\jamespantinople7-eng\\attendify\\attendify\\attendify\\attendify\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99A6D17-68A8-44F1-93D0-1F410510003D}|Attendify\\Attendify.csproj|solutionrelative:attendify\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Index.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Index.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Index.xaml",
+              "RelativeToolTip": "Attendify\\Index.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-25T08:12:05.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Montserrat-ExtraBold.ttf",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Resources\\Fonts\\Montserrat-ExtraBold.ttf",
+              "RelativeDocumentMoniker": "Attendify\\Resources\\Fonts\\Montserrat-ExtraBold.ttf",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Resources\\Fonts\\Montserrat-ExtraBold.ttf",
+              "RelativeToolTip": "Attendify\\Resources\\Fonts\\Montserrat-ExtraBold.ttf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVDhPxZIxa5NRFIafc2\u002BbmGpt0VYoEbdvyCR0jJPGycUM6o/QX5AhASE/wH/gJATJ1i1D10IXpxKKJcEUpBbjUCvpvd/33eOQfGnSZHDzwOGe\u002B3Le577DlWKxaHO5nPAPJSKoauj3\u002BwEAVZV2u71XLpef3FxeViJihsOha7Va75rNZhuATqez771T55w65yfnTHunznt13qv3XkejkXa7Xd9oNF4BGADV7I3JoDod0ew\u002BFqy1hBBWq9Xqp1qtVjVTqyohhHGrEnQyh4BOzNkZRRGlUilXqVTem1njHGSJpqrTNsaQz\u002BdX5wBJkuB9wsngkjiOieMY7/0CICsRUZOJ2dLX0ys\u002Bd87xPiFN04UkNyFzCdI0cPr9F4dHF\u002Bwf/pxoM5CwCDEKU/HL8W/W1ywPty0f987mzCEEgi5JsFYoaLZwdn7B1obw5vldBn8sR98u5wCZ\u002BbrBJEmCqjL44bCFWzzYusOjndu8frbJyTAlXWocm0ExV84JwM49c/D08TorVri/mefti21e7m4crFg7jTwbPftpUq/XP0RRtJuRQ9DrHwkYYxARRAQjBjHjWUTo9Xr9GeJ/qr/Ef6iAf0ycBAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-04-20T06:15:31.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Attendify\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MauiProgram.cs",
+              "RelativeToolTip": "Attendify\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T05:44:44.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SplashScreen.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\SplashScreen.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\SplashScreen.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\SplashScreen.xaml.cs",
+              "RelativeToolTip": "Attendify\\SplashScreen.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T05:26:08.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SplashScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\SplashScreen.xaml",
+              "RelativeDocumentMoniker": "Attendify\\SplashScreen.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\SplashScreen.xaml",
+              "RelativeToolTip": "Attendify\\SplashScreen.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T05:25:13.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\App.xaml.cs",
+              "RelativeToolTip": "Attendify\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T05:04:56.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EditProfile.xaml",
+              "RelativeDocumentMoniker": "Attendify\\EditProfile.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EditProfile.xaml",
+              "RelativeToolTip": "Attendify\\EditProfile.xaml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAMwOUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T12:56:36.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\AppShell.xaml.cs",
+              "RelativeToolTip": "Attendify\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T05:06:30.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Attendify\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\AppShell.xaml",
+              "RelativeToolTip": "Attendify\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:30:55.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Montserrat-Medium.ttf",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Resources\\Fonts\\Montserrat-Medium.ttf",
+              "RelativeDocumentMoniker": "Attendify\\Resources\\Fonts\\Montserrat-Medium.ttf",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Resources\\Fonts\\Montserrat-Medium.ttf",
+              "RelativeToolTip": "Attendify\\Resources\\Fonts\\Montserrat-Medium.ttf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG7SURBVDhPxZIxa5NRFIafc2\u002BbmGpt0VYoEbdvyCR0jJPGycUM6o/QX5AhASE/wH/gJATJ1i1D10IXpxKKJcEUpBbjUCvpvd/33eOQfGnSZHDzwOGe\u002B3Le577DlWKxaHO5nPAPJSKoauj3\u002BwEAVZV2u71XLpef3FxeViJihsOha7Va75rNZhuATqez771T55w65yfnTHunznt13qv3XkejkXa7Xd9oNF4BGADV7I3JoDod0ew\u002BFqy1hBBWq9Xqp1qtVjVTqyohhHGrEnQyh4BOzNkZRRGlUilXqVTem1njHGSJpqrTNsaQz\u002BdX5wBJkuB9wsngkjiOieMY7/0CICsRUZOJ2dLX0ys\u002Bd87xPiFN04UkNyFzCdI0cPr9F4dHF\u002Bwf/pxoM5CwCDEKU/HL8W/W1ywPty0f987mzCEEgi5JsFYoaLZwdn7B1obw5vldBn8sR98u5wCZ\u002BbrBJEmCqjL44bCFWzzYusOjndu8frbJyTAlXWocm0ExV84JwM49c/D08TorVri/mefti21e7m4crFg7jTwbPftpUq/XP0RRtJuRQ9DrHwkYYxARRAQjBjHjWUTo9Xr9GeJ/qr/Ef6iAf0ycBAAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-04-20T06:16:14.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Login.xaml.cs",
+              "RelativeToolTip": "Attendify\\Login.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T05:27:56.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditProfile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EditProfile.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\EditProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EditProfile.xaml.cs",
+              "RelativeToolTip": "Attendify\\EditProfile.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:57:16.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Profile.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Profile.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Profile.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Profile.xaml",
+              "RelativeToolTip": "Attendify\\Profile.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T11:56:07.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Login.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Login.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Login.xaml",
+              "RelativeToolTip": "Attendify\\Login.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:25:24.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\App.xaml",
+              "RelativeDocumentMoniker": "Attendify\\App.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\App.xaml",
+              "RelativeToolTip": "Attendify\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:30:52.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Dashboard.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeToolTip": "Attendify\\Dashboard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T11:45:05.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Profile.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Profile.xaml.cs",
+              "RelativeToolTip": "Attendify\\Profile.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:56:34.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyEvents.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MyEvents.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\MyEvents.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MyEvents.xaml.cs",
+              "RelativeToolTip": "Attendify\\MyEvents.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAxwBMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:39:20.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Attendify.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Attendify.csproj",
+              "RelativeDocumentMoniker": "Attendify\\Attendify.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Attendify.csproj",
+              "RelativeToolTip": "Attendify\\Attendify.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T12:55:52.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Settings.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Settings.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Settings.xaml",
+              "RelativeToolTip": "Attendify\\Settings.xaml",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAMwI4BAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T13:07:39.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Settings.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Settings.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Settings.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Settings.xaml.cs",
+              "RelativeToolTip": "Attendify\\Settings.xaml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAQwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T13:09:01.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MyEvents.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MyEvents.xaml",
+              "RelativeDocumentMoniker": "Attendify\\MyEvents.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\MyEvents.xaml",
+              "RelativeToolTip": "Attendify\\MyEvents.xaml",
+              "ViewState": "AgIAAFoCAAAAAAAAAAAMwGoCAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T14:31:06.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Events.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Events.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Events.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Events.xaml.cs",
+              "RelativeToolTip": "Attendify\\Events.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T13:59:28.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ForgotPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\ForgotPassword.xaml",
+              "RelativeDocumentMoniker": "Attendify\\ForgotPassword.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\ForgotPassword.xaml",
+              "RelativeToolTip": "Attendify\\ForgotPassword.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T04:15:41.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Events.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Events.xaml",
+              "RelativeDocumentMoniker": "Attendify\\Events.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Events.xaml",
+              "RelativeToolTip": "Attendify\\Events.xaml",
+              "ViewState": "AgIAABQCAAAAAAAAAAAMwCQCAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T13:42:15.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventDetails.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EventDetails.xaml",
+              "RelativeDocumentMoniker": "Attendify\\EventDetails.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\EventDetails.xaml",
+              "RelativeToolTip": "Attendify\\EventDetails.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T03:19:34.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Events.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Events.xaml",
+              "RelativeDocumentMoniker": "Events.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Events.xaml",
+              "RelativeToolTip": "Events.xaml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwNcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T03:26:03.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Attendify\\Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Attendify\\Dashboard.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T11:45:26.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T02:38:22.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Attendify.csproj.user",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj.user",
+              "RelativeDocumentMoniker": "Attendify.csproj.user",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj.user",
+              "RelativeToolTip": "Attendify.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-04-14T02:35:37.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T02:35:12.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T02:34:44.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Dashboard.xaml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Dashboard.xaml",
+              "RelativeToolTip": "Dashboard.xaml",
+              "ViewState": "AgIAALgBAAAAAAAAAAAuwNcBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-13T14:21:29.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Attendify.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj",
+              "RelativeDocumentMoniker": "Attendify.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\jamespantinople7-eng\\Attendify\\Attendify\\Attendify\\Attendify.csproj",
+              "RelativeToolTip": "Attendify.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T14:21:09.823Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
